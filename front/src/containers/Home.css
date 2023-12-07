@@ -1,0 +1,73 @@
+
+.home-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+
+.home-title {
+  font-size: 2.2em;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.task-list {
+  margin-top: 20px;
+  padding: 0;
+}
+
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-group input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.input-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.input-group button:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .home-title {
+    font-size: 1.8em;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-group input[type="text"] {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,46 @@
+
+.completed-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 30px auto;
+  }
+  
+  .completed-title {
+    font-size: 2.2em;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 500;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+
+  .back-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .completed-container {
+      padding: 15px;
+      margin: 15px;
+    }
+  
+    .completed-title {
+      font-size: 1.8em;
+    }
+  }
+  
